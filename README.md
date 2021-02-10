@@ -16,17 +16,17 @@
 - [KiCAD files](./board/KiCAD) and [PCB](./board/KiCAD/pcb)
 - Micro SD card and log button have been added for data logging capability
 - Bill of Materials (BOM) is [here](./board)                                 
-  <img src="./doc/mosaicHAT_board.jpg" width="640">
+  <img src="./doc/mosaicHAT_boarddesign.jpg" width="640">
 
 ## Case
 - You can create using 3D printer (STL data is [here](./case))
   - I used 3D printing service (by [Shapeways](https://www.shapeways.com/shops/tarosuzuki)) 
 - A 5/8 nut can be fixed on the case, which can be attached to a pole or antenna mount for GNSS surveying.  
- <img src="./doc/mosaicHAT_3D.jpg" width="640">
+ <img src="./doc/mosaicHAT_case.jpg" width="640">
 
 ## How to assemble
 - Parts list is [here](./case)  
-<img src="./doc/mosaicHAT_parts.jpg" width="640"><p>
+<img src="./doc/mosaicHAT_allparts.jpg" width="640"><p>
 
 1. Mount the Raspberry Pi on the touch screen. Then mount the mosaicHAT on the Rasberry Pi using the M2.5 18mm spacers and screws.   
 <img src="./doc/assemble1.jpg" width="640"><p>
