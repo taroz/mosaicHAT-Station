@@ -1,21 +1,21 @@
 # mosaicHAT-Station
 ## Introduction
-- [mosaicHAT](https://github.com/septentrio-gnss/mosaicHAT) + GNSS antenna + Raspberry Pi + Touch screen + Battery + Case
+- [**mosaicHAT**](https://github.com/septentrio-gnss/mosaicHAT) + **GNSS antenna** + **Raspberry Pi** + **Touch display** + **Battery** + **Case**
 - We use [Septentrio's mosaic-X5](https://www.septentrio.com/en/products/gnss-receivers/rover-base-receivers/receivers-module/mosaic) GNSS module which is a **low-cost** and **survey-grade** GNSS receiver
 - This project is inspired by [mosaicHAT](https://github.com/septentrio-gnss/mosaicHAT) and extends it further. Thanks to the wonderful project [mosaicHAT](https://github.com/septentrio-gnss/mosaicHAT)!
 - License: [Creative Commons Attribution Share-Alike License](https://creativecommons.org/licenses/by-sa/4.0/). and [Open Source HW](https://www.oshwa.org/definition/)  
  <img src="./doc/mosaicHAT.gif" width="640">
 
 ## Features
-- mosaicHAT Station has a touch screen to display a web user interface of mosaic-X5 receiver. We can easily operate, monitor, and control the GNSS receiver.
+- mosaicHAT Station has a touch display to display a web user interface of mosaic-X5 receiver. We can easily operate, monitor, and control the GNSS receiver.
 - Compared to the original [mosaicHAT](https://github.com/septentrio-gnss/mosaicHAT), we added micro SD card and a log button, so you can easily store GNSS data as a GNSS reference or rover station.  
   [<img src="https://img.youtube.com/vi/CmkE35LLup8/0.jpg" width="640">](https://www.youtube.com/watch?v=CmkE35LLup8)
 
 ## Board
-- The design of the board is based on the original mosaicHAT.
+- The design of the board is based on the original [mosaicHAT](https://github.com/septentrio-gnss/mosaicHAT).
 - [KiCAD files](./board/KiCAD) and [PCB](./board/KiCAD/pcb)
 - Micro SD card and log button have been added for data logging capability
-- Bill of Materials (BOM) is [here](./board)                                 
+- Bill of Materials (BOM) is [here](./board/mosaicHAT_BOM.xlsx)                                 
   <img src="./doc/mosaicHAT_boarddesign.jpg" width="640">
 
 ## Case
@@ -25,10 +25,10 @@
  <img src="./doc/mosaicHAT_case.jpg" width="640">
 
 ## How to assemble
-- Parts list is [here](./case)  
+- Parts list is [here](./case/parts_list.xlsx)  
 <img src="./doc/mosaicHAT_allparts.jpg" width="640"><p>
 
-1. Mount the Raspberry Pi on the touch screen. Then mount the mosaicHAT on the Rasberry Pi using the M2.5 18mm spacers and screws.   
+1. Mount the Raspberry Pi on the touch display. Then mount the mosaicHAT on the Rasberry Pi using the M2.5 18mm spacers and screws.   
 <img src="./doc/assemble1.jpg" width="640"><p>
 
 2. Fix the GNSS antenna using the M2.5 screws. Connect the SMA cable. Mount the touch display on the case using the M2.5 screws.   
